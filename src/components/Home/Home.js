@@ -1,12 +1,13 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
+import emilyPic from '../../pictures/em-2.jpg'
 
 const Home = () => {
   return (
     <>
-      <Container>
-        <Row>
-          <Col style={{color: '#313638', textAlign: 'center', backgroundColor: "#E4B363", padding: '1em 1em', borderRadius: '2px', fontSize: '2em' }}>a sunny sunday</Col>
+      <Container className='mt-4 text-center'>
+        <Row className='align-items-center'>
+          <Col><h1>Hey, I'm Emily</h1></Col><Col><Image rounded fluid src={emilyPic}></Image></Col>
         </Row>
       </Container>
     </>

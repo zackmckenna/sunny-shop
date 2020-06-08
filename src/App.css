@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  background-color: #E0DFD5;
+  background-color: #FFC15E;
 }
 
 .App-logo {
@@ -12,7 +12,7 @@
 
 .App-container {
   font-family: 'Roboto', sans-serif;
-  background-color: #E8E9EB;
+  background-color: #FFC15E;
   min-height: 100vh;
   /* display: flex;
   flex-direction: column;
