@@ -1,0 +1,11 @@
+.emilyPic {
+  transform: rotate(5deg);
+}
+
+.jewleryPic {
+  transform: rotate(-5deg);
+}
+
+.home-container {
+  margin-top: 5em;
+}
