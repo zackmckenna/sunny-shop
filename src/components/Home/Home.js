@@ -10,15 +10,17 @@ import './Home.css'
 const Home = () => {
   return (
     <>
-      <Container className='home-container text-center'>
+      <Container fluid className='home-container text-center'>
         <Row className='home-section align-items-center'>
-          <Col><h1>Hey, I'm Emily</h1></Col><Col><Image className='emilyPic' rounded fluid src={emilyPic}></Image></Col>
+          <Col className='home-section-text'><h1>Hey, I'm Emily</h1></Col><Col><Image className='emilyPic' rounded fluid src={emilyPic}></Image></Col>
         </Row>
         <Row className='home-section align-items-center'>
-          <Col><Image  className='jewleryPic' rounded fluid  src={jewleryPic}></Image></Col><Col><h2>and I make awesome jewlery</h2></Col>
+          <Col><Image  className='jewleryPic' rounded fluid  src={jewleryPic}></Image></Col><Col className='home-section-text'><h2>and I make awesome jewlery</h2></Col>
         </Row>
         <Row className='home-section align-items-center'>
-
+          <Col className='text-center'>
+            {/* <h3>check it out</h3> */}
+          </Col>
         </Row>
       </Container>
     </>

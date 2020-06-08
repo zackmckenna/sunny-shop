@@ -12,4 +12,31 @@
 
 .home-section {
   padding: 50px;
+
+}
+
+.home-section-text {
+  margin: 0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+ .bg-yellow {
+   background-color: #FFC15E;
+ }
+
+ .bg-light-orange {
+  background-color: #F7B05B;
+}
+
+.bg-orange {
+  background-color: #F7934C;
+}
+
+.bg-red {
+  background-color: #CC5803;
+}
+
+.bg-grey {
+  background-color: #1F1300;
 }

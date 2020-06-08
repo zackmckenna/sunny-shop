@@ -62,12 +62,10 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Container >
-          <header>
-            <Logo />
-            <SunnyNav />
-          </header>
-        </Container>
+        <header>
+          <Logo />
+          <SunnyNav />
+        </header>
         <Switch>
           <Router path="/" >
             <Home />

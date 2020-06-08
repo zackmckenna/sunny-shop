@@ -5,7 +5,7 @@ import Logo from '../Logo/Logo'
 
 const SunnyNav = () => {
   return (
-    <Nav className="justify-content-center" activeKey="/home">
+    <Nav className="navbar justify-content-center alert-dismissible" activeKey="/home">
       <Nav.Item>
         <Nav.Link>
           <Link to="/">home</Link>
