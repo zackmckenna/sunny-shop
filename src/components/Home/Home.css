@@ -1,9 +1,28 @@
-.emilyPic {
-  transform: rotate(5deg);
-}
 
-.jewleryPic {
-  transform: rotate(-5deg);
+@media (min-width: 992px) {
+  .emilyPic {
+    transform: rotate(5deg);
+  }
+
+  .jewleryPic {
+    transform: rotate(-5deg);
+  }
+
+  .fa {
+    font-size: 30px;
+    color: #FFC15E;
+    position: absolute;
+    display: -webkit-box;
+    left: 35vmin;
+    bottom: -65px;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+  }
+
+  .home-section {
+    padding: 50px;
+  }
 }
 
 .home-container {
@@ -12,7 +31,10 @@
 
 .home-section {
   padding: 50px;
+}
 
+.home-col {
+  margin: 5em 0 ;
 }
 
 .home-section-text {
@@ -27,8 +49,6 @@
   color: #FFC15E;
   position: absolute;
   display: -webkit-box;
-  display: flex;
-
   align-items: center;
   justify-content: center;
   z-index: -1;
