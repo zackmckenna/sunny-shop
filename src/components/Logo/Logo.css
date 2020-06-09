@@ -13,10 +13,17 @@
   margin-top: -9vmin;
 }
 
-.circle {
+.sun {
+  position: relative;
+  z-index: -1;
+  color: orange;
+}
+
+/* .circle {
   background: lightblue;
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  position: relative;
-}
+  position: relative
+} */
+
